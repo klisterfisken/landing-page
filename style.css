@@ -105,6 +105,7 @@ button {
     flex-direction: column;
     justify-content: center;
     width: 175px;
+    gap: 8px;
 }
 
 #item p {
@@ -117,4 +118,23 @@ button {
     width: 175px;
     border: solid 4px #3882F6;
     border-radius: 16px;
+}
+
+.quotes {
+    display: flex;
+    flex-direction: column;
+    background-color: #E5E7EB;
+    align-items: flex-end;
+    padding: 150px 29% 100px;
+}
+
+.quotes h1 {
+    color: #1F2937;
+    font-size: 36px;
+    font-weight: 300;
+    font-style: italic;
+}
+
+.quotes h2 {
+    margin-right: 48px;
 }
