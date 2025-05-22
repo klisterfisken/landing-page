@@ -1,10 +1,10 @@
 * {
     box-sizing: border-box;
-    /* border: solid 1px red; */
 }
 
 body {
     font-family: "Roboto", sans-serif;
+    margin: 0;
 }
 
 li {
@@ -155,4 +155,10 @@ button {
 
 .action-box button {
     border: solid 2px white;
+}
+
+footer {
+    background-color: #1F2937;
+    text-align: center;
+    padding: 40px;
 }
