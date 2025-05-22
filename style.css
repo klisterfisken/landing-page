@@ -55,7 +55,7 @@ button {
     font-size: 18px;
     font-weight: bold;
     border: none;
-    border-radius: 9px;
+    border-radius: 10px;
 }
 
 .hero {
@@ -137,4 +137,22 @@ button {
 
 .quotes h2 {
     margin-right: 48px;
+}
+
+.action-box {
+    display: flex;
+    justify-content: space-between;
+    background-color: #3882F6;
+    margin: 100px 400px;
+    padding: 50px 100px;
+    border-radius: 10px;
+}
+
+#right-box h2 {
+    color: white;
+    margin: 0px;
+}
+
+.action-box button {
+    border: solid 2px white;
 }
